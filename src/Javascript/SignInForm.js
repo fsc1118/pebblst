@@ -85,7 +85,7 @@ class FormBody extends React.Component {
             }
         }
         createUser().catch(()=>{
-            window.location.reload()
+          //  window.location.reload()
         })
     }
     render() {

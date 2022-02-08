@@ -1,0 +1,55 @@
+
+
+#brand {
+    padding-left: 100px;
+    color: #68a9ae !important;
+    font-size: xx-large;
+    text-shadow: 2px 2px #68a9ae !important;
+}
+
+
+
+#profile {
+    /* padding-right: px; */
+    margin-right: 75px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-image: url("/src/image/profile.jpeg");
+    background-repeat: no-repeat;
+    background-size: 70px, 70px;
+    font-weight: bolder;
+}
+
+/* IPAD MINI: 820px */
+@media (max-width:820px) { /* IE9 may have compatibility issue*/
+    #profile {
+        display: none;
+    }
+    #brand {
+        padding-left: 0px;
+    }
+}
+#a {
+    position: absolute;
+    top: 60px;
+    height: 30px;
+    width:100%;
+    background: linear-gradient(
+                    rgba(0, 0, 0, 0.3),
+                    rgba(0, 0, 0, 0.3)
+            ), url("/src/image/border.jpeg");
+    background-size:cover;
+}
+#b {
+    position: absolute;
+    top:60px;
+    height: 30px;
+    width:100%;
+    background: url("/src/image/border.jpeg");
+    background-size: cover;
+}

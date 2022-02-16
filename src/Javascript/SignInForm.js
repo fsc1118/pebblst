@@ -71,7 +71,7 @@ class FormBody extends React.Component {
                 "birthday":birthday,
                 "password":password
             }
-            let url = "https://z3yhnde0re.execute-api.us-east-2.amazonaws.com/default/skrskr"
+            let url = "https://od334eji99.execute-api.us-east-2.amazonaws.com/default/createAccount"
             let httpResponse = await fetch(url, {
                 method:"POST",
                 body: JSON.stringify(httpBody)
